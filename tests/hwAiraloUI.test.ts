@@ -20,6 +20,6 @@ test("Japan sim package verification", async ({ page }) => {
     expect((await simMainPopup.getCoverageText()).trim()).toBe('Japan');
     expect((await simMainPopup.getDataText()).trim()).toBe('1 GB');
     expect((await simMainPopup.getValidityText()).trim()).toBe('7 Days');
-    expect((await simMainPopup.getPriceText()).trim()).toBe('4.50 €');
+    expect((await simMainPopup.getPriceText()).trim()).toBe('4.50 USD');
 }
 )
